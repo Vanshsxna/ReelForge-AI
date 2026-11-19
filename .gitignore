@@ -1,0 +1,21 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Generated videos and temp files
+outputs/*
+!outputs/.gitkeep
+*.tmp
+*.tmp_audio.m4a
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
